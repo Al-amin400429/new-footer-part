@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,700&family=Montserrat:wght@300;500;700&display=swap');
+
+
+$bgColor:#07223E;
+$fontColor:#7A869A;
+$fontWhiteColor:#fff;
+$spanColor:#26B6E0;
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+footer{
+    width:100%;
+    height:auto;
+    padding:80px 50px;
+   background: $bgColor;
+   position:relative;
+
+.footer-widget{
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+
+    .single-footer{
+        flex-basis:23.33%;
+
+
+
+        h2{
+            color:$fontWhiteColor;
+            text-transform: uppercase;
+            font-size:32px;
+            font-weight:600;
+
+            span{
+                color:$spanColor;
+            }
+        }
+        p{
+            color:$fontColor;
+            margin:16px 0;
+            font-weight:300;
+        }
+
+        .social-icons{
+            width:50%;
+            ul{
+                display:flex;
+                justify-content:
+                space-between;
+
+                li{
+                    a{
+                        i{
+                            color:azure;
+                            width:30px;
+                            height:30px;
+                            background:darkslategrey;
+                            margin-top: 10px;
+                            display:flex;
+                            justify-content:center;
+                            align-items:center;
+
+                        }
+                    }
+                }
+            }
+        }
+        h3{
+            color:$fontWhiteColor;
+            text-transform:capitalize;
+        }
+        ul{
+            margin:20px 0;
+            li{
+                margin-bottom:10px;
+                a{
+                    color:$fontColor;
+                    font-weight:500;
+                    font-size:14px;
+                    transition:0.3s all linear;
+                   
+                }
+                a:hover {
+                    color:$fontWhiteColor;
+                }
+            }
+        }
+        .text-bold{
+            font-weight:600;
+        }
+    }
+    .ft-width{
+        flex-basis:30%;
+    }
+}
+.copy-write{
+    text-align: center;
+    p{
+        margin-top: 60px;
+        color:$fontColor;
+        font-weight: 300;
+    }
+}
+}
+
+
+@import 'responsive';

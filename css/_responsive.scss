@@ -1,0 +1,26 @@
+@media screen and (max-width:992px){
+    footer{
+        .footer-widget {
+            justify-content:space-between;
+
+            .single-footer {
+                flex-basis: 50%;
+                margin-bottom:30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:992px){
+    footer{
+        .footer-widget {
+            justify-content:space-between;
+
+            .single-footer {
+                flex-basis: 100%;
+                margin-bottom:30px;
+          
+            }
+        }
+    }
+}
